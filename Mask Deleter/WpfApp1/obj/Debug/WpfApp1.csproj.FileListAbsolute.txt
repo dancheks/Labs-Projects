@@ -1,0 +1,15 @@
+D:\Developing\5sq ctvvtcnh\IST-31-1\VisSredProgRil\USR\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe.config
+D:\Developing\5sq ctvvtcnh\IST-31-1\VisSredProgRil\USR\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe
+D:\Developing\5sq ctvvtcnh\IST-31-1\VisSredProgRil\USR\WpfApp1\WpfApp1\bin\Debug\WpfApp1.pdb
+D:\Developing\5sq ctvvtcnh\IST-31-1\VisSredProgRil\USR\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.AssemblyReference.cache
+D:\Developing\5sq ctvvtcnh\IST-31-1\VisSredProgRil\USR\WpfApp1\WpfApp1\obj\Debug\MainWindow.g.cs
+D:\Developing\5sq ctvvtcnh\IST-31-1\VisSredProgRil\USR\WpfApp1\WpfApp1\obj\Debug\App.g.cs
+D:\Developing\5sq ctvvtcnh\IST-31-1\VisSredProgRil\USR\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
+D:\Developing\5sq ctvvtcnh\IST-31-1\VisSredProgRil\USR\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.lref
+D:\Developing\5sq ctvvtcnh\IST-31-1\VisSredProgRil\USR\WpfApp1\WpfApp1\obj\Debug\MainWindow.baml
+D:\Developing\5sq ctvvtcnh\IST-31-1\VisSredProgRil\USR\WpfApp1\WpfApp1\obj\Debug\WpfApp1.g.resources
+D:\Developing\5sq ctvvtcnh\IST-31-1\VisSredProgRil\USR\WpfApp1\WpfApp1\obj\Debug\WpfApp1.Properties.Resources.resources
+D:\Developing\5sq ctvvtcnh\IST-31-1\VisSredProgRil\USR\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateResource.cache
+D:\Developing\5sq ctvvtcnh\IST-31-1\VisSredProgRil\USR\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
+D:\Developing\5sq ctvvtcnh\IST-31-1\VisSredProgRil\USR\WpfApp1\WpfApp1\obj\Debug\WpfApp1.exe
+D:\Developing\5sq ctvvtcnh\IST-31-1\VisSredProgRil\USR\WpfApp1\WpfApp1\obj\Debug\WpfApp1.pdb

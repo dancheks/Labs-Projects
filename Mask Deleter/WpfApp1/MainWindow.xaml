@@ -1,0 +1,21 @@
+﻿<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <StackPanel Margin="10">
+            <Button Content="Выбрать директорию" Click="SelectDirectory_Click" Width="200" Margin="0 10 0 0"/>
+            <TextBox Name="selectedDirectoryTextBox" Width="300" Margin="0 10 0 0" IsReadOnly="True" Text="Директория не выбрана"/>
+
+            <TextBox Name="extensionTextBox" Width="200" Margin="0 10 0 0" Text="Введите расширение (например, txt)"/>
+            <Button Content="Создать файл" Click="CreateFile_Click" Width="200" Margin="0 10 0 0"/>
+
+            <TextBox Name="maskTextBox" Width="200" Margin="0 10 0 0" Text="Введите маску (например, *.txt)"/>
+            <Button Content="Удалить файлы по маске" Click="DeleteFiles_Click" Width="200"/>
+        </StackPanel>
+    </Grid>
+</Window>
