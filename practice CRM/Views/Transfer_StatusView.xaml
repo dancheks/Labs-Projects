@@ -1,0 +1,125 @@
+﻿<UserControl x:Class="SqlliteViewer.Views.Transfer_StatusView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:controls="http://metro.mahapps.com/winfx/xaml/controls"
+             xmlns:helpers="http://metro.mahapps.com/winfx/xaml/shared"
+             xmlns:iconPacks="http://metro.mahapps.com/winfx/xaml/iconpacks"
+             mc:Ignorable="d">
+    <DockPanel Margin="10">
+
+        <!-- Форма ввода -->
+        <StackPanel DockPanel.Dock="Bottom" Orientation="Vertical" Margin="0,0,0,10" Background="{DynamicResource MahApps.Brushes.Accent4}" >
+            <DockPanel>
+                <!-- Блок полей -->
+                <StackPanel Orientation="Vertical">
+                    <WrapPanel>
+                        <ComboBox x:Name="StorageBox" Background="{DynamicResource MahApps.Brushes.Accent2}"
+          Width="120" Margin="5"
+          DisplayMemberPath="Code_Name"
+          SelectedValuePath="id"
+          IsEditable="True"
+          IsTextSearchEnabled="True"
+          SelectionChanged="StorageBox_SelectionChanged"/>
+
+                        <ComboBox x:Name="ProductBox" Background="{DynamicResource MahApps.Brushes.Accent2}"
+          Width="120" Margin="5"
+          DisplayMemberPath="Name"
+          SelectedValuePath="id"
+          IsEditable="True"
+          IsTextSearchEnabled="True"
+          SelectionChanged="ProductBox_SelectionChanged"/>
+                        <ComboBox x:Name="RecipientBox" Background="{DynamicResource MahApps.Brushes.Accent2}"
+          Width="120" Margin="5"
+          DisplayMemberPath="Name"
+          SelectedValuePath="id"
+          IsEditable="True"
+          IsTextSearchEnabled="True"/>
+                    </WrapPanel>
+                    <WrapPanel>
+                        <TextBox x:Name="PalletsBox" Background="{DynamicResource MahApps.Brushes.Accent2}"
+                 controls:TextBoxHelper.Watermark="Кол-во паллет"
+                 Margin="5" Width="120"
+                 TextChanged="PalletsBox_TextChanged" 
+                 PreviewTextInput="PalletsBox_PreviewTextInput"/>
+                        <ComboBox x:Name="StatusBox" Background="{DynamicResource MahApps.Brushes.Accent2}"
+          Width="140" Margin="5"
+          SelectedValuePath="Tag">
+                            <ComboBoxItem Content="Подготовка" Tag="1"/>
+                            <ComboBoxItem Content="Идёт" Tag="2"/>
+                            <ComboBoxItem Content="Прибыл" Tag="3"/>
+                            <ComboBoxItem Content="Задержан" Tag="4"/>
+                            <ComboBoxItem Content="Отмена" Tag="5"/>
+                        </ComboBox>
+
+                    </WrapPanel>
+                    <WrapPanel>
+                        <DatePicker x:Name="CompletionDatePicker" Background="{DynamicResource MahApps.Brushes.Accent2}"
+            Margin="5" Width="140"
+            SelectedDateFormat="Short"/>
+
+                        <DatePicker x:Name="IssueDatePicker" Background="{DynamicResource MahApps.Brushes.Accent2}"
+            Margin="5" Width="140"
+            SelectedDateFormat="Short"/>
+
+                        <DatePicker x:Name="ArrivalDatePicker" Background="{DynamicResource MahApps.Brushes.Accent2}"
+            Margin="5" Width="140"
+            SelectedDateFormat="Short"/>
+                    </WrapPanel>
+                </StackPanel>
+
+                <!-- Кнопки управления справа -->
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Margin="10,0,0,0" VerticalAlignment="Center">
+                    <Button Height="50" Width="100"
+        Style="{StaticResource MahApps.Styles.Button.Square.Accent}"
+        Click="Add_Click" Margin="5">
+                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                            <iconPacks:PackIconMaterial Kind="PlusBox" Width="20" Height="20" Margin="0,0,5,0"/>
+                            <TextBlock Text="Добавить" VerticalAlignment="Center"/>
+                        </StackPanel>
+                    </Button>
+
+
+                    <Button Margin="5" Height="50" Width="100"
+        Click="Update_Click"
+        Style="{StaticResource MahApps.Styles.Button.Square.Accent}">
+                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                            <iconPacks:PackIconMaterial Kind="ContentSaveEdit" Width="20" Height="20" Margin="0,0,5,0"/>
+                            <TextBlock VerticalAlignment="Center" Text="Сохранить"/>
+                        </StackPanel>
+                    </Button>
+
+                    <Button Margin="5" Height="50" Width="100"
+        Click="Delete_Click"
+        Style="{StaticResource MahApps.Styles.Button.Square.Accent}">
+                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                            <iconPacks:PackIconMaterial Kind="TrashCanOutline" Width="20" Height="20" Margin="0,0,5,0"/>
+                            <TextBlock VerticalAlignment="Center" Text="Удалить"/>
+                        </StackPanel>
+                    </Button>
+
+                </StackPanel>
+            </DockPanel>
+        </StackPanel>
+
+        <!-- DataGrid с данными -->
+        <DataGrid x:Name="TransferGrid"
+           AutoGenerateColumns="False"
+           SelectionChanged="TransferGrid_SelectionChanged"
+           ColumnWidth="*"
+Margin="0,0,0,10">
+            <DataGrid.Columns>
+                <DataGridTextColumn Binding="{Binding StorageName}" Header="Склад" />
+                <DataGridTextColumn Binding="{Binding ProductName}" Header="Продукт" />
+                <DataGridTextColumn Binding="{Binding RecipientName}" Header="Получатель" />
+                <DataGridTextColumn Binding="{Binding Number_Of_Pallets}" Header="Кол-во паллет" />
+                <DataGridTextColumn Binding="{Binding StatusText}" Header="Статус" />
+                <DataGridTextColumn Binding="{Binding Date_Of_Completion}" Header="Оформление" />
+                <DataGridTextColumn Binding="{Binding Date_Of_Issue}" Header="Отправка" />
+                <DataGridTextColumn Binding="{Binding Date_Of_Arrival}" Header="Прибытие" />
+            </DataGrid.Columns>
+        </DataGrid>
+    </DockPanel>
+</UserControl>
+    

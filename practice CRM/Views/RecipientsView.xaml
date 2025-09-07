@@ -1,0 +1,89 @@
+﻿<UserControl x:Class="SqlliteViewer.Views.RecipientsView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:controls="http://metro.mahapps.com/winfx/xaml/controls"
+             xmlns:helpers="http://metro.mahapps.com/winfx/xaml/shared"
+             xmlns:iconPacks="http://metro.mahapps.com/winfx/xaml/iconpacks"
+             mc:Ignorable="d">
+    <DockPanel Margin="10">
+
+        <!-- Форма ввода -->
+        <StackPanel DockPanel.Dock="Bottom" Orientation="Vertical" Margin="0,0,0,10" Background="{DynamicResource MahApps.Brushes.Accent4}">
+            <DockPanel>
+                <!-- Блок полей -->
+                <StackPanel Orientation="Vertical">
+                    <WrapPanel>
+                        <ComboBox x:Name="CountryBox" Background="{DynamicResource MahApps.Brushes.Accent2}"
+          Width="150" Margin="5"
+          controls:TextBoxHelper.Watermark="Страна"
+          SelectionChanged="CountryBox_SelectionChanged">
+                            <ComboBoxItem Content="🇧🇾 Беларусь" Tag="375" />
+                            <ComboBoxItem Content="🇷🇺 Россия" Tag="7" />
+                            <ComboBoxItem Content="🇺🇦 Украина" Tag="380" />
+                            <ComboBoxItem Content="🇵🇱 Польша" Tag="48" />
+                        </ComboBox>
+                        <TextBox x:Name="ContactNumberBox" Background="{DynamicResource MahApps.Brushes.Accent2}"
+             controls:TextBoxHelper.Watermark="Телефон"
+                                  TextChanged="ContactNumberBox_TextChanged"
+             Margin="5" Width="200"/>
+                    </WrapPanel>
+                    <WrapPanel>
+                        <TextBox x:Name="NameBox" Background="{DynamicResource MahApps.Brushes.Accent2}"
+controls:TextBoxHelper.Watermark="Имя получателя"
+Margin="5" Width="200"/>
+                        <TextBox x:Name="AddressBox" Background="{DynamicResource MahApps.Brushes.Accent2}"
+controls:TextBoxHelper.Watermark="Адрес"
+Margin="5" Width="250"/>
+                    </WrapPanel>
+                </StackPanel>
+
+                <!-- Кнопки управления справа -->
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Margin="10,0,0,0" VerticalAlignment="Stretch">
+                    <Button Height="50" Width="100"
+Style="{StaticResource MahApps.Styles.Button.Square.Accent}"
+Click="Add_Click" Margin="5">
+                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                            <iconPacks:PackIconMaterial Kind="PlusBox" Width="20" Height="20" Margin="0,0,5,0"/>
+                            <TextBlock Text="Добавить" VerticalAlignment="Center"/>
+                        </StackPanel>
+                    </Button>
+
+
+                    <Button Margin="5" Height="50" Width="100"
+Click="Update_Click"
+Style="{StaticResource MahApps.Styles.Button.Square.Accent}">
+                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                            <iconPacks:PackIconMaterial Kind="ContentSaveEdit" Width="20" Height="20" Margin="0,0,5,0"/>
+                            <TextBlock VerticalAlignment="Center" Text="Сохранить"/>
+                        </StackPanel>
+                    </Button>
+
+                    <Button Margin="5" Height="50" Width="100"
+Click="Delete_Click"
+Style="{StaticResource MahApps.Styles.Button.Square.Accent}">
+                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                            <iconPacks:PackIconMaterial Kind="TrashCanOutline" Width="20" Height="20" Margin="0,0,5,0"/>
+                            <TextBlock VerticalAlignment="Center" Text="Удалить"/>
+                        </StackPanel>
+                    </Button>
+                </StackPanel>
+            </DockPanel>
+        </StackPanel>
+
+        <!-- DataGrid с данными -->
+        <DataGrid x:Name="RecipientsGrid"
+           AutoGenerateColumns="False"
+           SelectionChanged="RecipientsGrid_SelectionChanged"
+           ColumnWidth="*"
+Margin="0,0,0,10">
+            <DataGrid.Columns>
+                <DataGridTextColumn Binding="{Binding Name}" Header="Имя получателя" />
+                <DataGridTextColumn Binding="{Binding Contact_Number}" Header="Телефон" />
+                <DataGridTextColumn Binding="{Binding Address}" Header="Адрес" />
+            </DataGrid.Columns>
+        </DataGrid>
+    </DockPanel>
+</UserControl>
+    

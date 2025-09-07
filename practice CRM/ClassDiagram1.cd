@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SqlliteViewer.MainWindow">
+    <Position X="10.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAkACAACIAFAAIAQEQAAAAAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>MainWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SqlliteViewer.Views.Transfer_StatusView">
+    <Position X="4.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEQAABAgAABQAAAAACggAAAAAAAAAAEABCjAAABQBAA=</HashCode>
+      <FileName>Views\Transfer_StatusView.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SqlliteViewer.Views.StoredView">
+    <Position X="4.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAABQAAAAACgAAAABAAAAAAAAEAiAAAAQAAA=</HashCode>
+      <FileName>Views\StoredView.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SqlliteViewer.Views.StoragesView">
+    <Position X="8.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAQAAAAAAgAAAAAAAAAAAAAAAiAAAAQAAA=</HashCode>
+      <FileName>Views\StoragesView.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SqlliteViewer.Views.StatisticsView">
+    <Position X="6.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QASCCgAAAAIQAAAAAEAAAACAAAIAkAAAAAAAAQgAEAA=</HashCode>
+      <FileName>Views\StatisticsView.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SqlliteViewer.Views.RecipientsView">
+    <Position X="8.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>FAQAAAAAAAAQQAAAIAgAAAAAAAAAAAAAAAiBAAAQAAA=</HashCode>
+      <FileName>Views\RecipientsView.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SqlliteViewer.Views.ProductsView">
+    <Position X="6.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAQAAAAAAgAAAEAAAAAAAAAAAiAAAAQAAA=</HashCode>
+      <FileName>Views\ProductsView.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="WpfApp1.App">
+    <Position X="8.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>App.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

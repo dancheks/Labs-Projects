@@ -1,0 +1,88 @@
+﻿<mah:MetroWindow x:Class="SqlliteViewer.MainWindow"
+        xmlns:mah="http://metro.mahapps.com/winfx/xaml/controls"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        xmlns:iconPacks="http://metro.mahapps.com/winfx/xaml/iconpacks"
+        mc:Ignorable="d"
+        Title="Управление Конечной Продукцией"
+        TitleCharacterCasing="Normal"
+        GlowBrush="LightBlue" 
+        Height="450" Width="850">
+    <DockPanel>
+        <StackPanel Orientation="Horizontal"
+            DockPanel.Dock="Top"
+            Background="{DynamicResource MahApps.Brushes.Button.Border}"
+            Height="50"
+            VerticalAlignment="Top">
+
+            <!-- Продукция -->
+            <Button Click="ShowProducts" x:Name="first"
+            Style="{StaticResource MahApps.Styles.Button.Square.Accent}"
+            Margin="6" Padding="12,4" Foreground="White" Background="Transparent">
+                <StackPanel Orientation="Horizontal">
+                    <iconPacks:PackIconMaterial Kind="PackageVariant" Width="20" Height="20" Margin="0,0,6,0"/>
+                    <TextBlock Text="Продукция" VerticalAlignment="Center"/>
+                </StackPanel>
+            </Button>
+
+            <!-- Получатели -->
+            <Button Click="ShowRecipients" x:Name="second"
+            Style="{StaticResource MahApps.Styles.Button.Square.Accent}"
+            Margin="6" Padding="12,4" Foreground="White" Background="Transparent">
+                <StackPanel Orientation="Horizontal">
+                    <iconPacks:PackIconMaterial Kind="AccountMultiple" Width="20" Height="20" Margin="0,0,6,0"/>
+                    <TextBlock Text="Получатели" VerticalAlignment="Center"/>
+                </StackPanel>
+            </Button>
+
+            <!-- Склады -->
+            <Button Click="ShowStorages" x:Name="third"
+            Style="{StaticResource MahApps.Styles.Button.Square.Accent}"
+            Margin="6" Padding="12,4" Foreground="White" Background="Transparent">
+                <StackPanel Orientation="Horizontal">
+                    <iconPacks:PackIconMaterial Kind="Warehouse" Width="20" Height="20" Margin="0,0,6,0"/>
+                    <TextBlock Text="Склады" VerticalAlignment="Center"/>
+                </StackPanel>
+            </Button>
+
+            <!-- Складирование -->
+            <Button Click="ShowStored" x:Name="forth"
+            Style="{StaticResource MahApps.Styles.Button.Square.Accent}"
+            Margin="6" Padding="12,4" Foreground="White" Background="Transparent">
+                <StackPanel Orientation="Horizontal">
+                    <iconPacks:PackIconMaterial Kind="DatabasePlus" Width="20" Height="20" Margin="0,0,6,0"/>
+                    <TextBlock Text="Складирование" VerticalAlignment="Center"/>
+                </StackPanel>
+            </Button>
+
+            <!-- Перемещения -->
+            <Button Click="ShowTransferStatus" x:Name="fifth"
+            Style="{StaticResource MahApps.Styles.Button.Square.Accent}"
+            Margin="6" Padding="12,4" Foreground="White" Background="Transparent">
+                <StackPanel Orientation="Horizontal">
+                    <iconPacks:PackIconMaterial Kind="TruckFast" Width="20" Height="20" Margin="0,0,6,0"/>
+                    <TextBlock Text="Перемещения" VerticalAlignment="Center"/>
+                </StackPanel>
+            </Button>
+
+            <!-- Статистика -->
+            <Button Click="ShowStatistics" x:Name="sixth"
+            Style="{StaticResource MahApps.Styles.Button.Square.Accent}"
+            Margin="6" Padding="12,4" Foreground="White" Background="Transparent">
+                <StackPanel Orientation="Horizontal">
+                    <iconPacks:PackIconMaterial Kind="ChartBar" Width="20" Height="20" Margin="0,0,6,0"/>
+                    <TextBlock Text="Статистика" VerticalAlignment="Center"/>
+                </StackPanel>
+            </Button>
+        </StackPanel>
+
+
+        <!-- Здесь будет динамически загружаться UserControl -->
+        <ContentControl x:Name="ContentPresenter" 
+                        HorizontalAlignment="Stretch"
+                        VerticalAlignment="Stretch"/>
+    </DockPanel>
+</mah:MetroWindow>
