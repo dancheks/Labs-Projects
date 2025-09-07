@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfCar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Car>
+    <Brand>Мерседес</Brand>
+    <Model>Ланта</Model>
+    <Year>2005</Year>
+    <Mileage>14</Mileage>
+  </Car>
+  <Car>
+    <Brand>Мерседес</Brand>
+    <Model>Хел</Model>
+    <Year>2009</Year>
+    <Mileage>12</Mileage>
+  </Car>
+  <Car>
+    <Brand>Донгуань</Brand>
+    <Model>Длон</Model>
+    <Year>2020</Year>
+    <Mileage>1</Mileage>
+  </Car>
+  <Car>
+    <Brand>Субару</Brand>
+    <Model>Супра</Model>
+    <Year>2002</Year>
+    <Mileage>78</Mileage>
+  </Car>
+  <Car>
+    <Brand>Автоваз</Brand>
+    <Model>Жигули</Model>
+    <Year>1970</Year>
+    <Mileage>111</Mileage>
+  </Car>
+</ArrayOfCar>

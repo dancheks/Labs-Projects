@@ -1,0 +1,49 @@
+﻿<Window x:Class="CarManagerApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Car Manager" Height="526.358" Width="600">
+    <Grid>
+        
+
+        <StackPanel Margin="10">
+            <StackPanel Orientation="Horizontal">
+                <Label Content="Марка:" Width="100" VerticalAlignment="Center"/>
+                <TextBox x:Name="BrandTextBox" Width="200" />
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <Label Content="Модель:" Width="100" VerticalAlignment="Center"/>
+                <TextBox x:Name="ModelTextBox" Width="200" />
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <Label Content="Год выпуска:" Width="100" VerticalAlignment="Center"/>
+                <TextBox x:Name="YearTextBox" Width="200" />
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <Label Content="Пробег:" Width="100" VerticalAlignment="Center"/>
+                <TextBox x:Name="MileageTextBox" Width="200" />
+            </StackPanel>
+            <Button Content="Добавить" Click="AddButton_Click" />
+            <Button Content="Удалить" Click="RemoveButton_Click" />
+            <Button Content="Поиск" Click="SearchButton_Click" />
+            <Button Content="Сохранить в бинарный" Click="SaveBinaryButton_Click" />
+            <Button Content="Сохранить в XML" Click="SaveXmlButton_Click" />
+            <Button Content="Загрузить из бинарного" Click="LoadBinaryButton_Click" />
+            <Button Content="Загрузить из XML" Click="LoadXmlButton_Click" />
+
+            <DataGrid x:Name="CarsDataGrid" AutoGenerateColumns="False" Height="200" Margin="0,10,0,0">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="Марка" Binding="{Binding Brand}" />
+                    <DataGridTextColumn Header="Модель" Binding="{Binding Model}" />
+                    <DataGridTextColumn Header="Год выпуска" Binding="{Binding Year}" />
+                    <DataGridTextColumn Header="Пробег" Binding="{Binding Mileage}" />
+                </DataGrid.Columns>
+            </DataGrid>
+            
+        </StackPanel>
+        <StackPanel Orientation="Horizontal">
+            <TextBlock Text="Сергеев Д.В, ИСТ-31, Вариант 8" 
+                   FontSize="16" Margin="10,465,10,10" />
+        </StackPanel>
+        
+    </Grid>
+</Window>
