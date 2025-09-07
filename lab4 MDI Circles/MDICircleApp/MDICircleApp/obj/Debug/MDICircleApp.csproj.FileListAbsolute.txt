@@ -1,0 +1,10 @@
+D:\Developing\5sq ctvvtcnh\IST-31-1\VisSredProgRil\lab4\MDICircleApp\MDICircleApp\obj\Debug\MDICircleApp.csproj.AssemblyReference.cache
+D:\Developing\5sq ctvvtcnh\IST-31-1\VisSredProgRil\lab4\MDICircleApp\MDICircleApp\obj\Debug\MDICircleApp.Form1.resources
+D:\Developing\5sq ctvvtcnh\IST-31-1\VisSredProgRil\lab4\MDICircleApp\MDICircleApp\obj\Debug\MDICircleApp.Properties.Resources.resources
+D:\Developing\5sq ctvvtcnh\IST-31-1\VisSredProgRil\lab4\MDICircleApp\MDICircleApp\obj\Debug\MDICircleApp.csproj.GenerateResource.cache
+D:\Developing\5sq ctvvtcnh\IST-31-1\VisSredProgRil\lab4\MDICircleApp\MDICircleApp\obj\Debug\MDICircleApp.csproj.CoreCompileInputs.cache
+D:\Developing\5sq ctvvtcnh\IST-31-1\VisSredProgRil\lab4\MDICircleApp\MDICircleApp\bin\Debug\MDICircleApp.exe.config
+D:\Developing\5sq ctvvtcnh\IST-31-1\VisSredProgRil\lab4\MDICircleApp\MDICircleApp\bin\Debug\MDICircleApp.exe
+D:\Developing\5sq ctvvtcnh\IST-31-1\VisSredProgRil\lab4\MDICircleApp\MDICircleApp\bin\Debug\MDICircleApp.pdb
+D:\Developing\5sq ctvvtcnh\IST-31-1\VisSredProgRil\lab4\MDICircleApp\MDICircleApp\obj\Debug\MDICircleApp.exe
+D:\Developing\5sq ctvvtcnh\IST-31-1\VisSredProgRil\lab4\MDICircleApp\MDICircleApp\obj\Debug\MDICircleApp.pdb
