@@ -1,0 +1,58 @@
+D:\Developing\5sq ctvvtcnh\IST-31-1\ОснБизиПрав\лаб4\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.AssemblyReference.cache
+D:\Developing\5sq ctvvtcnh\IST-31-1\ОснБизиПрав\лаб4\WpfApp1\WpfApp1\obj\Debug\MainWindow.baml
+D:\Developing\5sq ctvvtcnh\IST-31-1\ОснБизиПрав\лаб4\WpfApp1\WpfApp1\obj\Debug\MainWindow.g.cs
+D:\Developing\5sq ctvvtcnh\IST-31-1\ОснБизиПрав\лаб4\WpfApp1\WpfApp1\obj\Debug\App.g.cs
+D:\Developing\5sq ctvvtcnh\IST-31-1\ОснБизиПрав\лаб4\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
+D:\Developing\5sq ctvvtcnh\IST-31-1\ОснБизиПрав\лаб4\WpfApp1\WpfApp1\obj\Debug\WpfApp1.g.resources
+D:\Developing\5sq ctvvtcnh\IST-31-1\ОснБизиПрав\лаб4\WpfApp1\WpfApp1\obj\Debug\WpfApp1.Properties.Resources.resources
+D:\Developing\5sq ctvvtcnh\IST-31-1\ОснБизиПрав\лаб4\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateResource.cache
+D:\Developing\5sq ctvvtcnh\IST-31-1\ОснБизиПрав\лаб4\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
+D:\Developing\5sq ctvvtcnh\IST-31-1\ОснБизиПрав\лаб4\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe.config
+D:\Developing\5sq ctvvtcnh\IST-31-1\ОснБизиПрав\лаб4\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe
+D:\Developing\5sq ctvvtcnh\IST-31-1\ОснБизиПрав\лаб4\WpfApp1\WpfApp1\bin\Debug\WpfApp1.pdb
+D:\Developing\5sq ctvvtcnh\IST-31-1\ОснБизиПрав\лаб4\WpfApp1\WpfApp1\obj\Debug\WpfApp1.exe
+D:\Developing\5sq ctvvtcnh\IST-31-1\ОснБизиПрав\лаб4\WpfApp1\WpfApp1\obj\Debug\WpfApp1.pdb
+D:\Developing\5sq ctvvtcnh\IST-31-1\ОснБизиПрав\лаб4\WpfApp1\WpfApp1\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Developing\5sq ctvvtcnh\IST-31-1\ОснБизиПрав\15\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe.config
+D:\Developing\5sq ctvvtcnh\IST-31-1\ОснБизиПрав\15\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe
+D:\Developing\5sq ctvvtcnh\IST-31-1\ОснБизиПрав\15\WpfApp1\WpfApp1\bin\Debug\WpfApp1.pdb
+D:\Developing\5sq ctvvtcnh\IST-31-1\ОснБизиПрав\15\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.AssemblyReference.cache
+D:\Developing\5sq ctvvtcnh\IST-31-1\ОснБизиПрав\15\WpfApp1\WpfApp1\obj\Debug\MainWindow.baml
+D:\Developing\5sq ctvvtcnh\IST-31-1\ОснБизиПрав\15\WpfApp1\WpfApp1\obj\Debug\MainWindow.g.cs
+D:\Developing\5sq ctvvtcnh\IST-31-1\ОснБизиПрав\15\WpfApp1\WpfApp1\obj\Debug\App.g.cs
+D:\Developing\5sq ctvvtcnh\IST-31-1\ОснБизиПрав\15\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
+D:\Developing\5sq ctvvtcnh\IST-31-1\ОснБизиПрав\15\WpfApp1\WpfApp1\obj\Debug\WpfApp1.g.resources
+D:\Developing\5sq ctvvtcnh\IST-31-1\ОснБизиПрав\15\WpfApp1\WpfApp1\obj\Debug\WpfApp1.Properties.Resources.resources
+D:\Developing\5sq ctvvtcnh\IST-31-1\ОснБизиПрав\15\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateResource.cache
+D:\Developing\5sq ctvvtcnh\IST-31-1\ОснБизиПрав\15\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
+D:\Developing\5sq ctvvtcnh\IST-31-1\ОснБизиПрав\15\WpfApp1\WpfApp1\obj\Debug\WpfApp1.exe
+D:\Developing\5sq ctvvtcnh\IST-31-1\ОснБизиПрав\15\WpfApp1\WpfApp1\obj\Debug\WpfApp1.pdb
+D:\Developing\5sq ctvvtcnh\IST-31-1\ОснБизиПрав\15\WpfApp1\WpfApp1\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\15\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe.config
+D:\15\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe
+D:\15\WpfApp1\WpfApp1\bin\Debug\WpfApp1.pdb
+D:\15\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csprojAssemblyReference.cache
+D:\15\WpfApp1\WpfApp1\obj\Debug\MainWindow.baml
+D:\15\WpfApp1\WpfApp1\obj\Debug\MainWindow.g.cs
+D:\15\WpfApp1\WpfApp1\obj\Debug\App.g.cs
+D:\15\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
+D:\15\WpfApp1\WpfApp1\obj\Debug\WpfApp1.g.resources
+D:\15\WpfApp1\WpfApp1\obj\Debug\WpfApp1.Properties.Resources.resources
+D:\15\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateResource.cache
+D:\15\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
+D:\15\WpfApp1\WpfApp1\obj\Debug\WpfApp1.exe
+D:\15\WpfApp1\WpfApp1\obj\Debug\WpfApp1.pdb
+D:\15\1\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe.config
+D:\15\1\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe
+D:\15\1\WpfApp1\WpfApp1\bin\Debug\WpfApp1.pdb
+D:\15\1\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csprojAssemblyReference.cache
+D:\15\1\WpfApp1\WpfApp1\obj\Debug\MainWindow.baml
+D:\15\1\WpfApp1\WpfApp1\obj\Debug\MainWindow.g.cs
+D:\15\1\WpfApp1\WpfApp1\obj\Debug\App.g.cs
+D:\15\1\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
+D:\15\1\WpfApp1\WpfApp1\obj\Debug\WpfApp1.g.resources
+D:\15\1\WpfApp1\WpfApp1\obj\Debug\WpfApp1.Properties.Resources.resources
+D:\15\1\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateResource.cache
+D:\15\1\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
+D:\15\1\WpfApp1\WpfApp1\obj\Debug\WpfApp1.exe
+D:\15\1\WpfApp1\WpfApp1\obj\Debug\WpfApp1.pdb
